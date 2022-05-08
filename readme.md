@@ -24,9 +24,9 @@ graph LR
     
     subgraph 1g[Arhivos de congiruación en raiz]
         1    
-        [package.json]
-        [.gitignore]
-        [.eslintrc.js]    
+        1 --> 2[package.json]
+        1 --> 3[.gitignore]
+        1 --> 3[.eslintrc.js]    
     end
 
 
