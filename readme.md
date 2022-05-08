@@ -20,16 +20,33 @@ Desarrollando una API para exponer una base de datos basada en un archivo json, 
 
 ```mermaid
 graph LR
-    root[.] --> 1[readme.md]
+    root[.] --> 1[readme.md, package.json, .gitignore, .eslintrc.js]
+    root --> 2[.github/workflows]
+    root --> 3[data]
+    root --> 4[node_modules]
+    root --> 5[lib]
+    root --> 6[test]
     
     subgraph 1g[Arhivos de congiruación en raiz]
-        1    
-        1 --> 2[package.json]
-        1 --> 3[.gitignore]
-        1 --> 3[.eslintrc.js]    
+        1   
     end
-
-
+    subgraph 2g[Pruebas automzatidas con github]
+        2
+    end
+    subgraph 2g[base de datos]
+        3
+    end
+    subgraph 2g[modulos npm]
+        4
+    end
+    subgraph 2g[archivos de la aplicación]
+        5 --> 51[controllers]
+        5 --> 52[services]
+        5 --> 53[utils]
+    end
+    subgraph 3g[pruesbas aplicadas a la apliación]
+        6
+    end
 
 style 1g fill:transparent,stroke:#E5E5E5,stroke-width:1px,stroke-dasharray:5;
 style 2g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
