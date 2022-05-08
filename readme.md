@@ -16,7 +16,8 @@ Desarrollando una API para exponer una base de datos basada en un archivo json, 
 ![Drag Racing](https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png)
 > :art: Arte realizado por @carlogilmar para @LaunchX-InnovaccionVirtual
 
-## Estructura del proyecto
+
+## :ticket: Estructura del proyecto
 
 ```mermaid
 graph LR
