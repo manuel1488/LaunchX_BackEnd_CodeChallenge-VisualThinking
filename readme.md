@@ -33,18 +33,18 @@ graph LR
     subgraph 2g[Pruebas automzatidas con github]
         2
     end
-    subgraph 2g[base de datos]
+    subgraph 3g[base de datos]
         3
     end
-    subgraph 2g[modulos npm]
+    subgraph 4g[modulos npm]
         4
     end
-    subgraph 2g[archivos de la aplicación]
+    subgraph 4g[archivos de la aplicación]
         5 --> 51[controllers]
         5 --> 52[services]
         5 --> 53[utils]
     end
-    subgraph 3g[pruesbas aplicadas a la apliación]
+    subgraph 6g[pruesbas aplicadas a la apliación]
         6
     end
 
