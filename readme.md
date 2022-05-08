@@ -1,6 +1,9 @@
 # :rocket: Code Challenge - Visual Thinking API
 
+
+
 Proyecto desarrollado para el programa de formación [©Launch X 2022](https://launchx.rocks/) de [Innovaccionvirtual](https://www.instagram.com/innovaccionvirtual/) impulsado por [Microsoft](https://www.microsoft.com/es-mx/)
+
 
 
 ## :grey_question: Descripción
@@ -15,6 +18,7 @@ Desarrollando una API para exponer una base de datos basada en un archivo json, 
 
 ![Drag Racing](https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png)
 > :art: Arte realizado por @carlogilmar para @LaunchX-InnovaccionVirtual
+
 
 
 ## :ticket: Estructura del proyecto
@@ -56,3 +60,6 @@ style 4g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
 style 5g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
 style 6g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
 ```
+
+
+## Diseño de componentes
