@@ -21,11 +21,12 @@ Desarrollando una API para exponer una base de datos basada en un archivo json, 
 ```mermaid
 graph LR
     root[.] --> 1[readme.md]
-    root[.] --> 2[package.json]
-    root[.] --> 3[.gitignore]
-    root[.] --> 3[.eslintrc.js]
+    
     subgraph 1g[Arhivos de congiruación en raiz]
-        1        
+        1    
+        [package.json]
+        [.gitignore]
+        [.eslintrc.js]    
     end
 
 
