@@ -39,7 +39,7 @@ graph LR
     subgraph 4g[modulos npm]
         4
     end
-    subgraph 4g[archivos de la aplicación]
+    subgraph 5g[archivos de la aplicación]
         5 --> 51[controllers]
         5 --> 52[services]
         5 --> 53[utils]
