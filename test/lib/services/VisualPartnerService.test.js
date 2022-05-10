@@ -1,8 +1,8 @@
-const VisualPartnerService = require('./../../../lib/services/VisualPartnerService');
+const VisualPartnerService = require("./../../../lib/services/VisualPartnerService");
 const Reader = require("./../../../lib/utils/Reader");
 
 describe("Unit test for VisualPartnerServices class", () =>{
-    test('return valid result for getPartnersHaveCertification', () => {
+    test("return valid result for getPartnersHaveCertification", () => {
         const partners = Reader.readJsonFile("test/data/visualpartners.json");
         const filteredPartners1 = VisualPartnerService.getPartnersHaveCertification(partners, true);
         const filteredPartners2 = VisualPartnerService.getPartnersHaveCertification(partners, false);
