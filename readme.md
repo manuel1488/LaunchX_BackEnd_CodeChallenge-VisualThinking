@@ -63,3 +63,10 @@ style 6g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
 
 
 ## Diseño de componentes
+
+```mermaid
+graph TD
+    Reader --> VisualPartnerService    
+    VisualPartnerService --> VisualPartnerController
+    VisualPartnerController --> Server
+```
