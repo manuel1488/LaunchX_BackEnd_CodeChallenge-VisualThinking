@@ -35,7 +35,7 @@ graph LR
     subgraph 1g[Arhivos de congiruación en raiz]
         1   
     end
-    subgraph 2g[Pruebas automzatidas con github]
+    subgraph 2g[Pruebas automzatidas para github]
         2
     end
     subgraph 3g[base de datos]
@@ -62,7 +62,7 @@ style 6g fill:transparent,stroke:#323232,stroke-width:1px,stroke-dasharray:5;
 ```
 
 
-## Diseño de componentes
+## :construction: Diseño de componentes
 
 ```mermaid
 graph TD
@@ -70,3 +70,48 @@ graph TD
     VisualPartnerService --> VisualPartnerController
     VisualPartnerController --> Server
 ```
+
+Estos componentes se ubican dentro de la carpteta **lib**
+
+### Reader
+
+El componente **Reader** se encarga de la lectura de la base de datos, en nuestro caso se maneja en un archivo de .json
+
+### VisualPartnerService
+
+Este componente se encarga de procesar los datos aplicando las reglas de negocio
+
+### VisualPartnerController
+
+Este componente se ecarga de cargar los datos del origine y aplicar las reglas de negocio con el componente **VisualPartnerService**
+
+### Server
+
+Este compenente se encarga de exponer la **API** mendiante un servidor de express
+
+
+## Como utilizar el proyecto
+
+### Correr la aplicación
+
+```bash
+npm run server
+```
+
+![npm](/docs/images/npm%20run%20server.gif)
+
+### ejecutar las pruebas unitarias
+
+![npm](/docs/images/npm%20run%20test.gif)
+
+### Comprobación de syntaxis con **Linnter**
+
+![npm](/docs/images/npm%20run%20linter.gif)
+
+### Corrección de systenxis con **Linter**
+
+![npm](/docs/images/npm%20run%20linter-fix.gif)
+
+
+
+## :checkered_flag: Dependencias
