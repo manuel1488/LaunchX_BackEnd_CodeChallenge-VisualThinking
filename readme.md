@@ -118,6 +118,6 @@ npm run server
 
 El proyecto usa la siguiente dependencias para su ejecución
 
-- eslint ^8.14.0,
+- eslint ^8.14.0
 - express ^4.18.1
 - jest ^26.0.0
